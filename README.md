@@ -1,24 +1,20 @@
-# HR-Compliance-Insights-Platform
-
-HR-Compliance-Insights-Platform/  
-
-│  
-├── data/  
+HR-Compliance-Insights/
+│
+├── 📁 data/  
 │   ├── EmployeeMaster.csv  
 │   ├── DailyLogs.csv  
-│   └── ViolationsLog.csv  
-│  
-├── sql/  
-│   ├── create_tables.sql  
-│   └── stored_procedures.sql  
+│   └── ViolationsLog.csv (auto-generated)  
 │
-├── power_automate/  
-│   └── flow_export.json  
+├── 📁 powerautomate/  
+│   └── DailyComplianceAlert.zip  ← Flow export  
 │
-├── power_bi/  
+├── 📁 powerbi/    
 │   └── HRComplianceDashboard.pbix   
 │
-├── screenshots/   
-│   └── dashboard_view.png   
+├── 📁 sql/  
+│   ├── create_tables.sql  
+│   ├── load_data_proc.sql   
+│   └── violations_detection_proc.sql  
 │
-└── README.md  
+├── README.md  
+└── demo_screenshots/ (optional)  
